@@ -15,10 +15,14 @@ question1 = "Is Adidas sustainable?"
 
 context2 = "Express does pay their factory workers a living wage. They have supply chain transparency. They are committed to improving their sustainability initiatives."
 question2 = "Is Express sustainable?"
+
+context3 = "Haute Hijab does pay their workers a living wage. They have supply chain transparency. They are committed to improving their sustainability initiatives."
+question3 = "Is Haute Hijab sustainable?"
+
 #answer(sustainableDef+context2, question2)
 
-DEFAULT_CONTEXT = sustainableDef + context2
-DEFAULT_QUESTION = question2
+DEFAULT_CONTEXT = sustainableDef + context3
+DEFAULT_QUESTION = question3
 #DEFAULT_CONTEXT = "A company is sustainable if they pay their workers a living wage, have supply chain transparency, and are committed to improving their sustainability initiatives. Adidas does not pay most of their factory workers a living wage. They have supply chain transparency. They are committed to improving their sustainability initiatives."
 #DEFAULT_QUESTION = "Is Adidas sustainable?"
 
